@@ -6,8 +6,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/6-poster.png" data-setup="{}">
-          
-          <source src="movies/6/6.ogv" type='video/ogg' />
+
 			<source src="movies/6/6.mp4" type='video/mp4' />
       </video>
 

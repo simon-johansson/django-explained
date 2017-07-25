@@ -6,7 +6,6 @@
 
 <?php startblock('movie') ?>
     <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/intro-poster.png" data-setup="{}">
-      <source src="movies/1/1.ogv" type='video/ogg' />
       <source src="movies/1/1.mp4" type='video/mp4' />
     </video>
 
@@ -20,7 +19,7 @@
     <p>Jag heter <a href="http://www.simon-johansson.com">Simon Johansson</a> och jag kommer att vara er guide i Django-djungeln.</p>
 
     <p>Django Explained består av ett antal instruktionsfilmer som är tänkta att lära ut grunderna i ramverket Django. Filmerna är i första hand ämnade till studenter på Stockholms Universitet som går <i>Fortsättningskurs i Programmering</i>, ID:WEBPROG VT13, då filmerna utgör kursmaterialet för Django på kursen. Men om du har hittat hit utan att gå den kursen så är du också välkommen!</p>
-    
+
     <p class="headline">Förkunskaper</p>
     <p>Du behöver inte ha några förkunskaper i Django men däremot lite grundläggande kännedom om hur programmeringsspråket <i>Python</i> fungerar, Django bygger nämligen på Python. Du bör även kunna strukturera enkla webbsidor i <i>HTML</i> och <i>CSS</i>.</p>
 
@@ -42,10 +41,10 @@
       </fieldset>
 
   <p class="headline">Förbättringar och feedback</p>
-  <p> Släng gärna iväg ett mail till <a href="mail@simon-johansson.com">mail@simon-johansson.com</a> och berätta vad du tycker om sidan, all kritik är välkommen. </p> 
+  <p> Släng gärna iväg ett mail till <a href="mail@simon-johansson.com">mail@simon-johansson.com</a> och berätta vad du tycker om sidan, all kritik är välkommen. </p>
 <p>I mån om tid kan jag även spela in kompletterande filmer om det efterfrågas. Vill du veta hur man lägger in bilder i blogginläggen eller kanske hur man gör bloggen tillgänglig på internet? Eller har du kanske något annat du vill lära dig, säg till så ska jag försöka spela in fler filmer.
 </p>
-  
+
 
 	<!-- NYHETER -->
     <p class="news">FÖR ID:WEBPROG VT 2014</p>
@@ -69,32 +68,32 @@
       <p class="clear">
       <b class="headline headline3">14/4 - 2013</b>
             <span class="inline">Sprillans nya film nummer elva ligger nu uppe.</span>
-    </p>  
+    </p>
 
     <p class="clear">
       <b class="headline headline3">13/4 - 2013</b>
             <span class="inline">Film nummer tio är nu tillgänglig för allmän visning. Filmen berör, så gott som, alla centrala delar i ramverket och demonstrerar att vi med få rader kod kan göra väldigt mycket.</span>
-    </p>  
+    </p>
 
     <p class="clear">
       <b class="headline headline3">12/4 - 2013</b>
             <span class="inline">Lär dig om främmande nycklar i film nummer nio! Som det ser ut nu så kommer det totalt att bli tolv stycken filmer. Jag planerar att lägga upp två till under helgen.</span>
-    </p>  
+    </p>
 
     <p class="clear">
       <b class="headline headline3">10/4 - 2013</b>
             <span class="inline">Film nummer åtta ligger nu uppe.</span>
-    </p>  
+    </p>
 
     <p class="clear">
       <b class="headline headline3">7/4 - 2013</b>
             <span class="inline">Två nya filmer, nummer sex och sju! Håll till godo, fler filmer kommer snart.</span>
-    </p> 
+    </p>
 
     <p class="clear">
       <b class="headline headline3">20/3 - 2013</b>
             <span class="inline">Nu finns film nummer fem tillgänglig, vissa ändringar gjordes även till F.A.Q:n</span>
-    </p> 
+    </p>
 
     <p class="clear">
       <b class="headline headline3">17/3 - 2013</b>

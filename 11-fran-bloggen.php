@@ -6,8 +6,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/11-poster.png" data-setup="{}">
-          
-          <source src="movies/11/11.ogv" type='video/ogg' />
+
 			<source src="movies/11/11.mp4" type='video/mp4' />
       </video>
 
@@ -28,7 +27,7 @@
 
 <script src="https://gist.github.com/simon-johansson/5367887.js"></script>
 
-<p>Inuti form-taggen måste vi lägga till <code>{% csrf_token %}</code>, <a href="https://docs.djangoproject.com/en/dev/ref/contrib/csrf/">cross-site request forgery</a>, som gör att Django skickar med en unik nyckel i vår <i>POST</i>-request. Detta skyddar oss ifrån att någon skall lyckas göra <i>POST</i>-request, och på så sätt spara saker i vår databas, från en extern webbplats.</p> 
+<p>Inuti form-taggen måste vi lägga till <code>{% csrf_token %}</code>, <a href="https://docs.djangoproject.com/en/dev/ref/contrib/csrf/">cross-site request forgery</a>, som gör att Django skickar med en unik nyckel i vår <i>POST</i>-request. Detta skyddar oss ifrån att någon skall lyckas göra <i>POST</i>-request, och på så sätt spara saker i vår databas, från en extern webbplats.</p>
 
 <p>Det som vi här anger som <code>name</code> för respektive tagg kommer vi sedan i vår views att använda som identifikation för varje fält.</p>
 
@@ -59,7 +58,7 @@
 	<p>Om du är sugen på att experimentera med validering i Django så rekommenderar jag avsnittet <a href="https://docs.djangoproject.com/en/dev/topics/forms/">Working with forms</a> i Django-dokumentationen </p>
 </fieldset>
 
-<p>Vi kallar sedan på BlogComment-klassen och skickar med användarens kommentarsinformation som argument. 
+<p>Vi kallar sedan på BlogComment-klassen och skickar med användarens kommentarsinformation som argument.
 Genom att ange <code>datetime.datetime.now()</code> sparas automatiskt datumet och klockslaget för när POST-requesten togs emot.</p>
 
 <p>Vi använder oss sedan av <code>.save()</code> för att spara inlägget i databasen.</p>

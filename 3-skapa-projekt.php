@@ -6,7 +6,6 @@
 
 <?php startblock('movie') ?>
     <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/3-poster.png" data-setup="{}">
-      <source src="movies/3/3.ogv" type='video/ogg' />
       <source src="movies/3/3.mp4" type='video/mp4' />
     </video>
 
@@ -68,8 +67,8 @@
            <div class="timestamp"><a href="" class="roll-link" data-time="535"><span data-title="&nbsp;Hoppa hit&nbsp;">8 m 55 sek</span></a></div>
             <p>Django har en medföljande utvecklingsserver som vi har möjlighet att köra lokalt på vår dator och som vi kan använda oss av när vi håller på att utvecklar vår webbplats. Vi slipper därmed att skicka vårt projekt till en extern server, vilket tar tid och är lite bökigt. Djangos utvecklingsserver är dock inte ämnad att tas i produktion på riktiga sidor.</p>
 
-            <p>Vi skall nu testa att starta utvecklingsservern. Det gör vi ifrån kommandoprompten inuti vår projektmapp, dvs samma mapp som tidigare. Nu skriver ni <code>manage.py runserver</code>. Om allt går bra så får vi tillbaka <code>Development server is running at http://127.0.0.1:8000/</code>, där adressen är vårt lokala IP följt av porten som servern körs på. Vi kan nu öppna en webbläsare och skriva in <code>http://127.0.0.1:8000/</code></p> 
-              
+            <p>Vi skall nu testa att starta utvecklingsservern. Det gör vi ifrån kommandoprompten inuti vår projektmapp, dvs samma mapp som tidigare. Nu skriver ni <code>manage.py runserver</code>. Om allt går bra så får vi tillbaka <code>Development server is running at http://127.0.0.1:8000/</code>, där adressen är vårt lokala IP följt av porten som servern körs på. Vi kan nu öppna en webbläsare och skriva in <code>http://127.0.0.1:8000/</code></p>
+
              <fieldset>
               <legend>&nbsp;<span style="color:#E65555"> !!! Public Service Announcement !!! </span>&nbsp;</legend>
                         <p>Använd <span style="color:#E65555">INTE</span> Internet Explorer 9, eller någon tidigare version av IE för den delen. Använd instället IE 10, Firefox, Safari eller Chrome.</p>

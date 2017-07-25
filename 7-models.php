@@ -6,8 +6,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/7-poster.png" data-setup="{}">
-          
-          <source src="movies/7/7.ogv" type='video/ogg' />
+
 			<source src="movies/7/7.mp4" type='video/mp4' />
       </video>
 
@@ -18,12 +17,12 @@
 <img class="movieTitle" src="img/7-models.png" alt="">
 
      <!-- INSTRUKTIONER -->
-    
+
    <p>Nu är det dags att börja definiera våra Models och därmed avgöra vad vi vill kunna spara i vår databas och hur den datan skall sparas. Vi kommer att utgå ifrån följande klassdiagram i skapandet av våra Models:</p>
 
    <img src="img/klassdiagram.png" class="mtv" alt=""> <br>
 
-   <p>Vi kommer att börja med att implementera BlogPost-klassen, den som vad våra blogginlägg skall bestå av. </p> 
+   <p>Vi kommer att börja med att implementera BlogPost-klassen, den som vad våra blogginlägg skall bestå av. </p>
 
   <p class="headline">MODELS.PY</p>
   <div class="timestamp"><a href="" class="roll-link" data-time="238"><span data-title="&nbsp;Hoppa hit&nbsp;">3 m 58 sek</span></a></div>
@@ -59,7 +58,7 @@
 
 <p class="headline">SYNKA DATABASEN IGEN</p>
   <div class="timestamp"><a href="" class="roll-link" data-time="489"><span data-title="&nbsp;Hoppa hit&nbsp;">8 m 9 sek</span></a></div>
-   <p>Vi måste nu synka databasen igen. Det behövs för att vi måste skapa en ny tabell i databasen för vår nya klass som vi skapade i <i>models.py</i>. Annars har vi ingenstans att spara våra inlägg i databasen. 
+   <p>Vi måste nu synka databasen igen. Det behövs för att vi måste skapa en ny tabell i databasen för vår nya klass som vi skapade i <i>models.py</i>. Annars har vi ingenstans att spara våra inlägg i databasen.
 </p>
 <p>Vi synkar databasen på samma sätt som vi gjorde tidigare, dvs. genom att skriva <code>manage.py syndbd</code> i kommandoprompten  från projekmappen. Vi kan nu starta utveklingsservern, <code>manage.py runserver</code>, och surfa in på <code>127.0.0.1:8000/admin</code> för att se den nyskapade klassen. I nästa film skall vi försöka visa våra inlägg på index-sidan men för att det skall finnas något att visa så måste vi skapa några till inlägg, passa på att göra det nu. </p>
 

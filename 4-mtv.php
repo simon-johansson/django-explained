@@ -6,8 +6,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/4-poster.png" data-setup="{}">
-          
-          <source src="movies/4/4.ogv" type='video/ogg' />
+
 			     <source src="movies/4/4.mp4" type='video/mp4' />
       </video>
 
@@ -42,7 +41,7 @@
     <p class="clear"><b class="headline headline2">4.</b> <span class="fixedWidth">Views hanterar datan och skickar den sedan vidare till rätt presentationsmall, eller template.</span></p>
 
     <p class="clear"><b class="headline headline2">5.</b> <span class="fixedWidth">I template avgör vi hur datan skall presenteras för användaren, dvs. själva sidan som användaren ser.</span></p>
-    
+
    <p class="clear"> Ha den här bilden i bakhuvudet när ni arbetar med projektet. Gå tillbaka till den om ni blir osäkra på hur allt hänger ihop.</p>
 
    <img src="img/MTV.png" class="mtv" alt="">

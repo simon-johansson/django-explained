@@ -6,8 +6,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/5-poster.png" data-setup="{}">
-          
-          <source src="movies/5/5.ogv" type='video/ogg' />
+
 			<source src="movies/5/5.mp4" type='video/mp4' />
       </video>
 
@@ -43,7 +42,7 @@
 
  <fieldset>
    <legend>&nbsp;<span style="color:#E65555">OBS!</span>&nbsp;</legend>
-   <p>Det är viktigt att mappen innehållandes våra templates heter just <i>templates</i> och ligger i app-mappen, annars kommer Django inte att hitta den.</p> 
+   <p>Det är viktigt att mappen innehållandes våra templates heter just <i>templates</i> och ligger i app-mappen, annars kommer Django inte att hitta den.</p>
  </fieldset>
 
  <p> I den nyskapade mappen kommer alla våra templates att ligga. Vi skapar en ny template-fil och döper den till <i>index.html</i>. Mappstrukturen skall nu se ut så här:</p>

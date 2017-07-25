@@ -6,8 +6,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/8-poster.png" data-setup="{}">
-          
-          <source src="movies/8/8.ogv" type='video/ogg' />
+
 			<source src="movies/8/8.mp4" type='video/mp4' />
       </video>
 
@@ -42,7 +41,7 @@
     <p><b>4.</b> Views hanterar datan och sätter namn den som vi sedan kan använda oss av när vi skall avgöra hur datan skall presenteras, och det gör vi i template.</p>
 
     <p><b>5.</b> I template avgör vi var på webbsidan som våra blogginlägg skall visas, hur många inlägg som skall visas mm. Allt som har med presentationen att göra.</p>
-    
+
    <p> Det här är den bilden som jag skulle vilja att ni har den här bilden i bakhuvudet när ni arbetar med projektet. Gå tillbaka till den här om ni blir osäkra på hur allt hänger ihop.</p>
 
    <img src="MTV.png" class="mtv" alt="">

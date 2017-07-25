@@ -6,8 +6,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/8-poster.png" data-setup="{}">
-          
-          <source src="movies/8/8.ogv" type='video/ogg' />
+
 			<source src="movies/8/8.mp4" type='video/mp4' />
       </video>
 
@@ -22,7 +21,7 @@
 
  <p class="headline">VIEWS.PY</p>
 <div class="timestamp"><a href="" class="roll-link" data-time="64"><span data-title="&nbsp;Hoppa hit&nbsp;">64 sek</span></a></div>
- 
+
  <p>För att kunna få tillgång till våra blogginlägg måste vi först importera klassen som inläggen är instanser av, dvs. <code>BlogPost</code>, och vi gör det ifrån vår <i>models.py</i> som vi nåt genom att ange <code>blog_app.models</code>.</p>
 
 <script src="https://gist.github.com/simon-johansson/5331820.js"></script>
@@ -42,7 +41,7 @@
 
 <script src="https://gist.github.com/simon-johansson/5331843.js"></script>
 
-<p>Eftersom att <code>allBlogPosts</code> består av en lista innehållandes alla blogg-inlägg så måste vi iterera över variablen och skriva ut inläggen en efter en. Django tillåter oss att använda viss logik direkt i våra templates. Vi kommer i det här fallet bara att behöva använda oss av en <i>for-loop</i> men det finns även andra typer av template-taggar att leka med, kolla in länken om du vill veta mer: 
+<p>Eftersom att <code>allBlogPosts</code> består av en lista innehållandes alla blogg-inlägg så måste vi iterera över variablen och skriva ut inläggen en efter en. Django tillåter oss att använda viss logik direkt i våra templates. Vi kommer i det här fallet bara att behöva använda oss av en <i>for-loop</i> men det finns även andra typer av template-taggar att leka med, kolla in länken om du vill veta mer:
 <a href="https://docs.djangoproject.com/en/dev/ref/templates/builtins/">https://docs.djangoproject.com/en/dev/ref/templates/builtins/</a>
 
 <p>Anledningen till att vi loopar baklänges genom listan, detta åstadkoms genom att ange <code>reversed</code> i for-loops-taggen, är för att vi vill att det senast skrivna inlägget skall vara högst upp på vår sida.</p>
@@ -64,9 +63,9 @@
 <p class="headline">SCHYST!</p>
 <div class="timestamp"><a href="" class="roll-link" data-time="447"><span data-title="&nbsp;Hoppa hit&nbsp;">7 m 26 sek</span></a></div>
 
-<p>Vi har nu skapat en dynamisk sida enligt definitionen från den första filmen; Vi har kopplat vår sida mot en databas och det är möjligt att skapa nytt innehåll på sidan, genom administrationsgränssnittet, utan att skriva någon kod.</p> 
+<p>Vi har nu skapat en dynamisk sida enligt definitionen från den första filmen; Vi har kopplat vår sida mot en databas och det är möjligt att skapa nytt innehåll på sidan, genom administrationsgränssnittet, utan att skriva någon kod.</p>
 <p>
-	Om du nu starta servern och surfar in på bloggen så borde du nu kunna avnjuta alla fina inlägg som du har skapat. 
+	Om du nu starta servern och surfar in på bloggen så borde du nu kunna avnjuta alla fina inlägg som du har skapat.
 </p>
 <p>I nästa film skall vi fortsätta att implementera vårt klassdiagram, vi skall då ge oss på User-klassen och dess relation till BlogPost-klassen.</p>
 

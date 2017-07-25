@@ -18,8 +18,7 @@
 
 <?php startblock('movie') ?>
         <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/12-poster.png" data-setup="{}">
-          
-          <source src="movies/12/12.ogv" type='video/ogg' />
+
 			     <source src="movies/12/12.mp4" type='video/mp4' />
       </video>
 
@@ -71,7 +70,7 @@
 <p class="headline">INDEX.HTML BLIR BASE.HTML</p>
 <div class="timestamp"><a href="" class="roll-link" data-time="114"><span data-title="&nbsp;Hoppa hit&nbsp;">1 m 54 sek</span></a></div>
 
-<p>För att vi inte vill upprepa kod i onödan vill vi dra nytta av template-taggen <code>extends</code>. Vi börjar därför med att döpa om vår <i>index.html</i> till <i>base.html</i>, då denna kommer att utgöra vår template-bas.</p> 
+<p>För att vi inte vill upprepa kod i onödan vill vi dra nytta av template-taggen <code>extends</code>. Vi börjar därför med att döpa om vår <i>index.html</i> till <i>base.html</i>, då denna kommer att utgöra vår template-bas.</p>
 
 <p>I denna fil vill vi nu lägga in <code>block</code>-taggar som vi kommer att fylla med olika innehåll beroände på vilken del av vår sida som användaren besöker. Vi börjar med att skapa en <code>block</code>-tagg för vår <code>title</code>. Jag väljer att döpa blocket till just <code>title</code>.</p>
 

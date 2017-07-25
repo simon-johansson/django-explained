@@ -6,7 +6,6 @@
 
 <?php startblock('movie') ?>
     <video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="1020" height="574" poster="img/2-poster.png" data-setup="{}">
-      <source src="movies/2/2.ogv" type='video/ogg' />
       <source src="movies/2/2.mp4" type='video/mp4' />
     </video>
 
@@ -33,7 +32,7 @@
 
    <p>
      Börja med att installera Python. Det lättaste är att ladda ner installationsfilen och följa instruktionerna. Du kan ladda ner den härifrån: <a href="http://www.python.org/getit/">http://www.python.org/getit/.</a><br>På Mac OS X finns Python 2.7.3 förinstallerat.</p>
-    
+
     <p class="headline"> 2. </p>
       <div class="timestamp"><a href="" class="roll-link" data-time="134"><span data-title="&nbsp;Hoppa hit&nbsp;">2 m 14 sek</span></a></div>
       <p>
@@ -50,10 +49,10 @@
     <p>Klistra in följande (inklusive semikolon):</p>
     <p>
       <script src="https://gist.github.com/simon-johansson/5146207.js"></script>
-    </p> 
+    </p>
     <p>i fältet <i>Variabelvärde</i>, om det redan står något i fältet så klistrar du in det i slutet av av det som redan står.<span style="color:#F20D0D">OBS!</span> Detta förutsätter att du har installerat Python under standardsökvägen. Om din Python-installation finns någon annanstans måste du byta ut <code>C:\python27</code> mot den korrekta sökvägen. Godkänn och stäng alla fönster.</p>
 
-    
+
     <p class="headline">3. För OS X</p>
     <p>På nyare installationer av Mac OS X (däribland version 10.9.2 Mavericks) så finns Python 2.7 förinstallerat och tillgängligt från terminalen. Du kan  testa detta genom att öppna terminalen och skriva <code>python -V</code>. Om du får  <code>Python 2.7.3</code> som svar betyder det att allt fungerar som det ska, du kan då hoppa till nästa steg. Om du istället får ett felmeddelande kan du testa ladda ner och installera Python (enligt steg ett ovan). Öppna sedan terminalen, klistra in följande och tryck på enter:</p>
     <p>
@@ -75,17 +74,17 @@
     <p>Ett annat sätt att navigera sig igenom filsystemet med hjälp av kommandoprompten/terminalen är att ange kommandot <code>cd</code>, som står för <i>change directory</i>, följt av sökvägen till den mappen som vi vill ta oss till. Testa att skriva <code>cd</code> och dra in en mapp i kommandoprompten, då skrivs sökvägen till mappen automatiskt ut (glöm inte att göra ett mellanslag mellan <code>cd</code> och sökvägen).</p>
 
     <p>För att vara säkra på att vi nu är i rätt mapp kan vi skriva <code>dir</code> och trycka på enter, då skrivs allt innehåll i den nuvarande mappen ut (för Mac kan du skriva <code>ls</code> för samma resultat). Om <i>setup.py</i> är med bland de filer som skrivs ut så vet vi att vi är i rätt mapp.</p>
-    
+
     <p class="headline">6. </p>
     <div class="timestamp"><a href="" class="roll-link" data-time="371"><span data-title="&nbsp;Hoppa hit&nbsp;">6 m 11 sek</span></a></div>
    <p> Vi skall nu installera Django, det gör vi genom att skriva <code>python setup.py install</code>, på Mac så måste du skriva <code>sudo python setup.py install</code> för att få administrationsrättigheter. Det tar ett litet tag och sen rasslar det förbi en massa rader kod. Om du får ett felmeddelande kan det bero på att du inte har administrationsrättigheter, testa att starta kommandoprompten genom att högerklicka på cmd.exe och välja <i>Kör som administratör</i>. </p>
 
     <p>När installationen är klar kan du testa att skriva <code>django-admin.py version</code> och trycka på enter. Om allt vill säg väl så får du tillbaka 1.5, vilket är versionen av Django som vi precis installerade. Om du får ett felmeddelande, teta då att skriva <code>python django-admin.py version</code> istället. Du kan behöva starta om kommandopromten för att detta skall fungera.</p>
-    
+
     <p class="headline">7. </p>
    <p> Nu är det bara Aptana Stuido 3 kvar. Ladda ner installationsfilen ifrån <a href="http://www.aptana.com/">http://www.aptana.com/</a> och kör den. </p>
     <p>Starta Aptana när installationen är klar. Aptana kommer att be dig att ange en Workspace, dvs var dina projekt som du skapar i Aptana kommer att sparas. Ett tips om du använder backup-program som Dropbox eller Google Drive är att välja att ha din Workspace innuti någon utav dessa. Då behöver du inte vara orolig för att din kod försvinner om darorn kraschar.</p>
-      
+
       <p class="headline">8. </p>
       <div class="timestamp"><a href="" class="roll-link" data-time="435"><span data-title="&nbsp;Hoppa hit&nbsp;">7 m 15 sek</span></a></div>
    <p> Vi skall nu tala om för Aptana var vår Python-installation håller hus. Välj <i>Window</i> uppe i menyraden och därefter <i>Preferences</i>. Expandera <i>PyDev</i> i menyn till vänster och välj sedan <i>Interpreter - Python</i>. </p>
